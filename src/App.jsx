@@ -26,7 +26,7 @@ function App() {
         </div>
         <div className="description">
           <h2>Line Graph</h2>
-          <p>This graph represents the number of steps taken by Mom and Dad over a week. It shows trends and comparisons of their daily activity levels.</p>
+          <p>This graph represents the number of steps taken by Mom Dad and Son over a week. It shows Days and Number of steps by an individual.</p>
         </div>
       </div>
       <div className="graph-section">
@@ -35,7 +35,7 @@ function App() {
         </div>
         <div className="description">
           <h2>Bar Graph</h2>
-          <p>This bar graph shows the expenses in various categories like Rent, Groceries, Utilities, Entertainment, and Transportation. It helps in understanding where most of the budget is allocated.</p>
+          <p>This bar graph shows the calories burned by the family members. It shoes all the exercises and how much calories they are burning </p>
         </div>
       </div>
       <div className="graph-section">
@@ -44,7 +44,7 @@ function App() {
         </div>
         <div className="description">
           <h2>Doughnut Graph</h2>
-          <p>This doughnut chart displays the distribution of time spent on different social media platforms. It provides insights into which platforms are most engaging.</p>
+          <p>This doughnut chart displays Daily routine of the family. It provides all the work done by an individual.</p>
         </div>
       </div>
       <div className="graph-section">
@@ -53,7 +53,7 @@ function App() {
         </div>
         <div className="description">
           <h2>Pie Graph</h2>
-          <p>The pie chart illustrates the percentage distribution of time spent on various social media platforms. It helps in understanding the proportion of time spent on each platform.</p>
+          <p>The pie chart illustrates the percentage distribution of time spent on various Activities. It helps in understanding the proportion of time spent on each activity.</p>
         </div>
       </div>
     </div>
