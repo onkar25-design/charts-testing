@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  background: url(../background1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+select {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.graph-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.graph-item {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+}
+
+.description h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .graph-section {
+    flex-direction: column;
+  }
+
+  .description {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  select {
+    font-size: 1.1rem;
+  }
+
+  .description h2 {
+    font-size: 1.2rem;
+  }
+
+  .description p {
+    font-size: 0.9rem;
+  }
+}
